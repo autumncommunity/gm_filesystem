@@ -14,6 +14,10 @@ This is a binary module that allows you to create/delete files in folders that l
 
 All building guide [here](https://github.com/WilliamVenner/gmod-rs/blob/master/examples/my-first-binary-module/README.md); **(don't forget to put the nightly branch in rustup using the `rustup toolchain install nightly` command.)**
 
+#### Linux:
+* 32: rustup target add i686-unknown-linux-gnu --toolchain nightly
+* 64: rustup target add x86_64-unknown-linux-gnu --toolchain nightly
+
 # Todos
 
 Add github workflows to build this library
