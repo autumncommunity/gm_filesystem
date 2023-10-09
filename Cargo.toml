@@ -1,0 +1,12 @@
+[package]
+name = "gm_filesystem"
+version = "1.0.5"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+gmod = "*"
+steamlocate = "0.*"
